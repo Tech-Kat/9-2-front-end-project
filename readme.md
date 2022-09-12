@@ -1,7 +1,7 @@
-Anime Movie Seeker using Jikan API
+# Anime Movie Seeker using Jikan API
 
 
-User Stories
+### User Stories
 -As a user, when I visit the website I see links to multiple pages so that I can navigate from one page to the other
 -As a user I can click on an About link so that it will navigate to a new page where I see information about the developer
 -As a user, information about users is retrieved from an API so that I can see a list of anime photos with titles to click on to go to watch trailer for that perticle anime if applicable.

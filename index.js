@@ -4,4 +4,5 @@ const baseUrl = "https://api.jikan.moe/v4/anime"
 fetch(baseUrl)
 .then((response) => response.json()) 
 .then((wy) => console.log(wy))
+.catch((err) => console.log(err));
 
