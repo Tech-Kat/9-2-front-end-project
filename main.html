@@ -6,10 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime Movie Seeker</title>
     <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1>Anime info project using Jikan API </h1>
-    <h2>Kendra Pelle</h2>
+    <main>
+     <div class="heading">
+        <h1>Anime Movie Seeker</h1>
+    </div>
+    <div class="dropdown" name="dropdown">
+        
+    <div class="genre">
+        <select name="genre" id="select-genre">
+            <option value="Action">Action</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Drama">Drama</option>
+            <option value="fantasy">fantasy</option>
+            <option value="mystery">mystery</option>
+            <option value="romance">romance</option>
+            <option value="sports">sports</option>
+            <option value="suspense">suspense</option>
+            <option value="supernatural">supernatural</option>
+            <option value=""></option>
+        </select>
+       
+    </div>
+    <div class="type">
+        <select name="select" id="select-type" class="select-type">
+<option value=""></option>
+            <option class="movie" value="movie">Movie</option>
+            <option class="tv" value="tv">Tv</option>
+            
+        </select>   
+    </div>
+    </div>
+</main>
+    <div class="img-container"></div> 
+   <div class="type-Info"></div>   
+<footer>
+    <p class = link-text>
+        Click <a href="./main2.html" target="_blank" rel="noopener" rel="noreferrer">here</a> to find trailers for your Anime.
+    </p>
+</footer>
+   
 </body>
 </html>
 
