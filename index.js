@@ -19,12 +19,10 @@ fetch(baseUrl)
   .then((animeData) => {
 getData(animeData)
     
-    console.log(animeData)
     function getRandomInt(max) {
       return Math.floor(Math.random() * max);
     }
     const randomImg = animeData.data[getRandomInt(24)];
-    console.log(randomImg);
     const tagImg = document.createElement("img");
     tagImg.setAttribute("src", `${randomImg.images.jpg.large_image_url}`);
     imgContainer.append(tagImg);
@@ -57,7 +55,7 @@ selectType.addEventListener("change", (e) => {
            ${movie.duration} <br>
            ${movie.synopsis} ` + "<br><br>"
       imgContainer.append(pmovie)
-      console.log(pmovie)
+      
       // 
     }
    
@@ -69,7 +67,7 @@ selectType.addEventListener("change", (e) => {
                    ${movie.duration}
                    ${movie.synopsis} ` + "<br><br>"
               imgContainer.append(ptv)
-              console.log(ptv)
+              
           }
   
   }
