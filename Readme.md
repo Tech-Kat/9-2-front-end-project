@@ -11,7 +11,10 @@ This is my anime website which will enable a user to search anime movies or tv e
 -As a user, information about users is retrieved from an API so that I can see a list of anime photos with titles to click on to go to watch trailer for that perticle anime if applicable.
 
 -As a user, I can type in an input box and search for movies based on the input, (e.g. movie or TV) so that more information about what content is available appears
+=======
+-As a user, I can type in an input box and search for movies based on the movie name, so that more information about what movies are available appears
+
 
 -As a user, if I try to submit with no entry in the input box, I see a message on the screen telling me to enter a value to search so that I cannot submit without entering a value
 
--As a user, I can hover on a movie title  so that I can view information about movie such as (rating, duration, etc.)
+-As a user, I can hover on a movie type  so that I can clearly see which button im choosing
