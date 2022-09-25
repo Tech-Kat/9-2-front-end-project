@@ -7,7 +7,6 @@ grid-template-rows: 1fr 1fr ;
 .heading{
     grid-column: 1 / 4;
     grid-row: 1 / 2;
-    /* background-color: black; */
     background: url("https://cutewallpaper.org/21/anime-crossover-wallpaper/HD-wallpaper-Anime-Crossover-Alchemist-Alphonse-Elric-.jpg")
     no-repeat;
     background-size: cover; 
@@ -27,8 +26,7 @@ h1{
     box-sizing: border-box;
 }
 body{
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
+   
     height: 100vh;
     background-color: black;
     font-family: "poppins", sans-serif;
@@ -73,11 +71,7 @@ transform: translateY(-10px);
 transition: all 0.4s ease;
 }
 
-/* .genre a, 
-.type a{
-color: black ;
-text-decoration: none;
-} */
+
 
 .genre option,
 .type option{
@@ -108,16 +102,17 @@ text-decoration: none;
 }
 
 .genre select:focus + option,
-.type select:focus + option { /* when you focus o the button affect the ul */
+.type select:focus + option { /* when you focus on the button affect the ul */
 opacity: 1;
 pointer-events: all;
 transform: translateY(0px);
 }
 
 footer{
+color: white;
 grid-row: 4 /5;
 grid-column: 1 / 3;
-/* text-align: end; */
+
 color: crimson;
 }
 
@@ -125,16 +120,13 @@ color: crimson;
     margin-bottom: 0;
 }
 
-/** media query*/
+
 
 .img-container{
     display: grid;
     justify-content: center;
     align-items: center;
-    /* grid-template-rows: repeat(4, 1fr); */
-    /* row-gap: 20px; */
-    /* grid-row: 3 / 4;
-    grid-column: 2; */
+   
 }
 
 .type-Info{
@@ -143,16 +135,29 @@ color: crimson;
 }
 
 p{
-
-    background-color: antiquewhite;
+display: grid;
+    background-color: crimson;
+    row-gap: 10px;
+    color:  white;
 }
 @media screen and (min-width: 375px) and (max-width: 667px) {
     body{
         background-color: firebrick;
     }
-    
+    p{
+        background-color: black;
+        color: aliceblue;
+    }
+    footer{
+        color: white;
+    }
   }
   
+  @media screen and (min-width:668){
+    .link-text{
+        color: white;
+    }
+  }
  
    
   
